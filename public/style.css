@@ -46,13 +46,23 @@
       margin-left: 73px;
       margin-top: 20px;
       padding:15px;
-      background: #081b21;  
+      background:whitesmoke;
       border:2px solid #081b21;
       border-radius: 10px;
       color: whitesmoke;
       text-indent: 2px;
       letter-spacing: 1px;
       font-weight:bolder;
+     }
+
+     .img{
+      background-image: url('./Arrow\ right.svg'); /* Replace with your image URL */
+      background-size: cover; /* Scale the image to cover the entire button */
+      background-position: center; /* Center the image within the button */
+      width: 150px; /* Set the width of the button */
+      height: 70px; /* Set the height of the button */
+      border: none; /* Remove border for a clean look */
+      cursor: pointer
      }
 
      button:hover{
