@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Api Integration</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="container">
+        <h1>Get your temperature here!!</h1> 
+        <div>
+            
+            <form action="/submit" method="POST">
+              <fieldset><label for="lattitude">Lattitude</label><input type="text" name="lat" required /></fieldset>
+              <fieldset><label for="longitude">Longitude</label><input type="text" name="long" required /></fieldset>
+              <button type="submit" id="getTemp" onclick="window.location.href='/getTemp'">Get Temperature</button>
+            </form>
+           
+        </div>
+
+        <div class="response-area">
+            <div class="class">
+               <% if(locals.content) {%>
+               <p>The temperature is&nbsp;</p>
+               <p>
+               <%=content%><p>K&nbsp;</p>
+               <p>or&nbsp;</p>
+               <p><%=contentincelsius%></p>
+               <p>&deg;c</p>
+               <% }else{ %>
+               <p>Press the button to get tempterature</p>
+               <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+  
+  </html>
