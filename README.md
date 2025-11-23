@@ -51,7 +51,7 @@ node index.js
 
 Visit the app in your browser:[👉 http://localhost:3000](http://localhost:3000)
 
-##🔌 API Used
+## 🔌 API Used
 
 This project uses OpenWeatherMap API for fetching real-time weather data.
 
@@ -59,12 +59,12 @@ API Endpoint example:
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}
 
 ## 🐳 Docker Support
-###Build Docker Image
+### Build Docker Image
 ```
 docker build -t weather-app .
 ```
 
-###Run the Container
+### Run the Container
 ```
 docker run -d -p 3000:3000 weather-app
 ```
