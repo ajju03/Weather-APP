@@ -33,7 +33,7 @@ This project is containerized using Docker and can be integrated into a full CI/
 
 ## ⚙️ Installation & Setup
 
-###1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/ajju03/Weather-APP.git
 cd Weather-APP
@@ -44,7 +44,7 @@ cd Weather-APP
 npm install
 ```
 
-###3️⃣ Run the Application
+### 3️⃣ Run the Application
 ```bash
 node index.js
 ```
@@ -99,7 +99,7 @@ stage('Docker Build') {
 }
 ```
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
-Ajay Prasanna
-Feel free to contribute or raise issues!
+Ajay Prasanna\
+Feel free to or raise issues!
