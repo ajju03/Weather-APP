@@ -1,9 +1,32 @@
-# Weather-APP
-This repository consists of weather app which is built using OpenWeather api.
+# 🌦️ Node.js Weather App
 
-Download the files and open it in vs-code.
-Download the necessary node packages using command "npm i" in terminal and hit enter.
-After downloading packages make sure your system has node, if your have type this command "node index.js" in the terminal and hit enter.
-You'll be having this message "Your server is running in port 3000." in the terminal. If not check for the errors.
-If it is successful, go to your browser and type "localhost:3000" and hit enter.
-You'll be having the web-app in your system.
+A simple and interactive Weather Application built using Node.js, Express.js, and a public Weather API. The application allows users to enter any location and get real-time weather information.
+This project is containerized using Docker and can be integrated into a full CI/CD pipeline using Jenkins.
+
+🚀 Features
+
+Fetches real-time weather data using a public Weather API
+
+Simple and user-friendly UI
+
+Built with Node.js + Express.js
+
+Supports dynamic location input
+
+Dockerized for easy deployment
+
+Suitable for CI/CD automation
+
+🛠️ Tech Stack
+
+Backend: Node.js, Express.js
+
+View Engine: EJS
+
+API Client: Axios
+
+Containerization: Docker
+
+Version Control: Git, GitHub
+
+Automation (optional): Jenkins CI/CD
