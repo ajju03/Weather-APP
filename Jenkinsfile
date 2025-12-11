@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         IMAGE = "ajayprasannaa/weather-app"
+        DOCKERHUB_CREDENTIALS = 'dockerhubtoken'
     }
 
     stages {
