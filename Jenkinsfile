@@ -3,7 +3,6 @@ pipeline {
 
     environment {
         IMAGE = "ajayprasannaa/weather-app"
-        DOCKERHUB_CREDENTIALS = "dockerhub"
     }
 
     stages {
@@ -29,7 +28,7 @@ pipeline {
 
         stage('Docker Push') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'DOCKERHUB_CREDENTIALS', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
+                withCredentials([usernamePassword(credentialsId: dockerhubtoken, usernameVariable: 'USER', passwordVariable: 'PASS')]) {
                     // use password-stdin to avoid leaking password in args
                     sh '''
                       echo "$PASS" | docker login -u "$USER" --password-stdin
