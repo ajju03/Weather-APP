@@ -49,7 +49,7 @@ npm install
 node index.js
 ```
 
-Visit the app in your browser:[👉 http://localhost:3000](http://localhost:3000)
+Visit the app in your browser:[👉 http://localhost:3001](http://localhost:3001)
 
 ## 🔌 API Used
 
@@ -71,7 +71,7 @@ docker run -d -p 3000:3000 weather-app
 
 Access
 
-[👉 http://localhost:3000](http://localhost:3000)
+[👉 http://localhost:3000](http://localhost:3001)
 
 
 ## 🔄 CI/CD with Jenkins
