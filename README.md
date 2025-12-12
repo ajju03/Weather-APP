@@ -74,7 +74,7 @@ Access
 [👉 http://localhost:3000](http://localhost:3000)
 
 
-## 🔄 CI/CD with Jenkins (Optional)
+## 🔄 CI/CD with Jenkins
 
 This project can be automated using a Jenkins pipeline:
 
