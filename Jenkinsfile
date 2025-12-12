@@ -50,7 +50,7 @@ pipeline {
                 sh '''
                   docker stop weather-app || true
                   docker rm weather-app || true
-                  docker run -d -p 3000:3000 --name weather-app ${IMAGE}:latest
+                  docker run -d -p 3001:3000 --name weather-app ${IMAGE}:latest
                 '''
             }
         }
