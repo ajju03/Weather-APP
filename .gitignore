@@ -130,3 +130,77 @@ dist
 .pnp.*
 
 .node_modules
+
+# ======================
+# macOS
+# ======================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ======================
+# Node.js
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Java / Maven
+# ======================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ======================
+# IDEs & Editors
+# ======================
+.vscode/
+.idea/
+*.iml
+*.log
+
+# ======================
+# Jenkins
+# ======================
+.jenkins/
+jenkins_home/
+
+# ======================
+# Docker
+# ======================
+*.pid
+docker-compose.override.yml
+
+# ======================
+# OS / Temp files
+# ======================
+tmp/
+temp/
+*.swp
+*.bak
+
+# ======================
+# Coverage / Reports
+# ======================
+coverage/
+reports/
+
+# ======================
+# Build artifacts
+# ======================
+dist/
+build/
+out/
+
