@@ -12,13 +12,6 @@ pipeline {
             }
         }
 
-        stage('Install Node Modules') {
-            steps {
-                // use sh on Linux agents
-                sh 'npm install'
-            }
-        }
-
         stage('Docker Build') {
             steps {
                 // build using the env IMAGE
